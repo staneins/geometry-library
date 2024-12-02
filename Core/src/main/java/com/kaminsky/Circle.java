@@ -16,4 +16,8 @@ public class Circle extends AbstractFigure {
     public double calculatePerimeter() {
         return 2 * Math.PI * radius;
     }
+
+    public double getRadius() {
+        return radius;
+    }
 }

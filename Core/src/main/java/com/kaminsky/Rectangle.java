@@ -18,4 +18,12 @@ public class Rectangle extends AbstractFigure {
     public double calculatePerimeter() {
         return (height + width) * 2;
     }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getWidth() {
+        return width;
+    }
 }

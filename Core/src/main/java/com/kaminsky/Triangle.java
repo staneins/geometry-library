@@ -21,4 +21,16 @@ public class Triangle extends AbstractFigure {
     public double calculatePerimeter() {
         return sideA + sideB + sideC;
     }
+
+    public double getSideA() {
+        return sideA;
+    }
+
+    public double getSideB() {
+        return sideB;
+    }
+
+    public double getSideC() {
+        return sideC;
+    }
 }
